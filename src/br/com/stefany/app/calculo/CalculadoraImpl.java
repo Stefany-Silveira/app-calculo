@@ -1,9 +1,10 @@
 package br.com.stefany.app.calculo;
 
+import br.com.stefany.app.Calculadora;
 import br.com.stefany.app.calculo.interno.OperacoesAritmeticas;
 import br.com.stefany.app.logging.Logger;
 
-public class Calculadora {
+public class CalculadoraImpl implements Calculadora {
 
     private String id = "abc";
 
